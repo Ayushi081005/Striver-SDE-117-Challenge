@@ -9,7 +9,7 @@ class Solution {
                 if (j == 0 || j == i) {
                     row.add(1);
                 } else {
-                    // Sum of two elements above
+                    
                     int val = triangle.get(i - 1).get(j - 1) + triangle.get(i - 1).get(j);
                     row.add(val);
                 }
